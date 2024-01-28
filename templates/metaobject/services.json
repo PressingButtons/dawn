@@ -6,7 +6,7 @@
         "heading_aPhfUg": {
           "type": "heading",
           "settings": {
-            "heading": "{{ metaobject.name.value }}",
+            "heading": "<strong>{{ metaobject.name.value }}<\/strong>",
             "heading_size": "h1"
           }
         }
