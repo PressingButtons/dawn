@@ -74,10 +74,10 @@
           "repeater": "{{ page.metafields.custom.services.value }}",
           "settings": {
             "image": "{{ block.repeater.key_image.value }}",
-            "caption": "{{ block.repeater.name.value }}",
-            "heading": "Row",
+            "caption": "",
+            "heading": "{{ block.repeater.name.value }}",
             "text": "<p>{{ block.repeater.introduction | metafield_tag }}<\/p>",
-            "button_label": "Button label",
+            "button_label": "View More",
             "button_link": "{{ block.repeater.system.url }}"
           }
         }
