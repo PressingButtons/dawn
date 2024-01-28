@@ -6,14 +6,14 @@
         "featured_image": {
           "type": "featured_image",
           "settings": {
-            "image_height": "adapt"
+            "image_height": "medium"
           }
         },
         "title": {
           "type": "title",
           "settings": {
             "blog_show_date": true,
-            "blog_show_author": false
+            "blog_show_author": true
           }
         },
         "share": {
@@ -36,9 +36,27 @@
       ],
       "settings": {
       }
+    },
+    "gallery_6wrefU": {
+      "type": "gallery",
+      "blocks": {
+        "gallery_image_wXfH3e": {
+          "type": "gallery_image",
+          "settings": {
+            "image_caption": "Add a tagline"
+          }
+        }
+      },
+      "block_order": [
+        "gallery_image_wXfH3e"
+      ],
+      "settings": {
+        "section_color_scheme": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "gallery_6wrefU"
   ]
 }
