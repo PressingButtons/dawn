@@ -50,8 +50,8 @@
             "button_label": "CONTACT US",
             "button_link": "shopify:\/\/pages\/contact",
             "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "View All Services",
+            "button_link_2": "shopify:\/\/pages\/service",
             "button_style_secondary_2": false
           }
         }
