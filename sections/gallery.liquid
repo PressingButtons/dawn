@@ -58,6 +58,7 @@
         <div class='cfr-masonry'>
             {%- for block in section.blocks %}
                 {%- case block.type -%}
+                    {%- if block.settings.image != blank -%}
                     {%- when "gallery_image" -%}
                         <figure>
                             {{ block.settings.image 
@@ -67,8 +68,11 @@
                                 sizes: sizes,
                                 class: "masonry-image"  
                             }}
+                            {%- if block.settings.image_caption != blank -%}
                             <figcaption>{{ block.settings.image_caption }}</figcaption>
+                            {%- endif -%}
                         </figure>
+                    {%- endif -%}
                 {%- endcase -%}
             {%- endfor -%}
         </div>
