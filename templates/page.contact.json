@@ -86,7 +86,7 @@
           "type": "button",
           "settings": {
             "button_label": "Map Location",
-            "button_link": "",
+            "button_link": "https:\/\/www.google.com\/maps\/place\/975+Nimco+Dr,+Crystal+Lake,+IL+60014\/@42.2144763,-88.2918805,17z\/data=!3m1!4b1!4m6!3m5!1s0x880f0d2f70557241:0x4503e22d71550ff6!8m2!3d42.2144763!4d-88.2918805!16s%2Fg%2F11b8v67mg4?entry=ttu",
             "button_style_secondary": false
           }
         }
