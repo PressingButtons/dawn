@@ -1,7 +1,78 @@
 {
   "sections": {
+    "image_banner_NfGNzR": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_aPhfUg": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.name.value }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aPhfUg"
+      ],
+      "settings": {
+        "image": "{{ metaobject.key_image.value }}",
+        "image_overlay_opacity": 60,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_zpXbwg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RRT6cW": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_jmQx4n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.description | metafield_tag }}<\/p>"
+          }
+        },
+        "button_7anzNY": {
+          "type": "button",
+          "settings": {
+            "button_label": "CONTACT US",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RRT6cW",
+        "text_jmQx4n",
+        "button_7anzNY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
   },
   "order": [
-
+    "image_banner_NfGNzR",
+    "rich_text_zpXbwg"
   ]
 }
