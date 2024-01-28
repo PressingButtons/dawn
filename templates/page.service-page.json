@@ -113,39 +113,19 @@
       "blocks": {
         "row_cArPw4": {
           "type": "row",
+          "repeater": "{{ page.metafields.custom.services.value }}",
           "settings": {
-            "caption": "Caption",
+            "image": "{{ block.repeater.key_image.value }}",
+            "caption": "{{ block.repeater.name.value }}",
             "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "{{ block.repeater.introduction | metafield_tag }}",
             "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_JBbTLQ": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_tHCf8f": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_link": "{{ block.repeater.system.url }}"
           }
         }
       },
       "block_order": [
-        "row_cArPw4",
-        "row_JBbTLQ",
-        "row_tHCf8f"
+        "row_cArPw4"
       ],
       "settings": {
         "image_height": "medium",
