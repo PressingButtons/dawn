@@ -24,7 +24,7 @@
             "button_link_1": "shopify:\/\/collections\/products",
             "button_style_secondary_1": false,
             "button_label_2": "View Services",
-            "button_link_2": "",
+            "button_link_2": "shopify:\/\/metaobjects\/service_page\/services",
             "button_style_secondary_2": false
           }
         }
@@ -45,8 +45,8 @@
         "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "rich_text": {
