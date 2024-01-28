@@ -14,7 +14,7 @@
         "heading_99MpYH": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Gallery<\/strong>",
+            "heading": "<strong>GALLERY<\/strong>",
             "heading_size": "h1"
           }
         }
@@ -27,9 +27,9 @@
         "image_overlay_opacity": 60,
         "image_height": "small",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
