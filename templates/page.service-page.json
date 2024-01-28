@@ -1,5 +1,33 @@
 {
   "sections": {
+    "image_banner_kzqUg6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7AjTRC": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>SERVICES<\/strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7AjTRC"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/services.jpg",
+        "image_overlay_opacity": 60,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +37,7 @@
     }
   },
   "order": [
+    "image_banner_kzqUg6",
     "main"
   ]
 }
