@@ -14,7 +14,7 @@
         "heading_99MpYH": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}",
+            "heading": "<strong>{{ page.title }}<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -33,7 +33,7 @@
       "settings": {
         "image": "{{ page.metafields.custom.page_banner_image.value }}",
         "image_overlay_opacity": 60,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
