@@ -6,7 +6,7 @@
         "heading_tVz8yi": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "<strong>SLOGAN HERE<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -35,12 +35,14 @@
         "buttons_igYYLp"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
+        "video": "shopify:\/\/files\/videos\/crane.MOV",
+        "image": "shopify:\/\/shop_images\/unknown_afd8c1d2-95f0-4a18-9214-02f1969d4c72.png",
+        "image_overlay_opacity": 60,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
