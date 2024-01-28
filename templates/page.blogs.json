@@ -14,50 +14,93 @@
         "heading_99MpYH": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "<strong>NEWS AND HIGHLIGHTS<\/strong>",
             "heading_size": "h1"
           }
         },
         "text_Bfe8Wr": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "<strong>Keep up to date with our latest endeavors.<\/strong>",
             "text_style": "body"
-          }
-        },
-        "buttons_CWPXd4": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading_99MpYH",
-        "text_Bfe8Wr",
-        "buttons_CWPXd4"
+        "text_Bfe8Wr"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/news.jpg",
+        "image_overlay_opacity": 60,
+        "image_height": "small",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "featured_blog_xP7YBy": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Latest News",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_iRyF4a": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "White Papers",
+        "heading_size": "h1",
+        "blog": "machinery",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_f9AYGy": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Recent Projects",
+        "heading_size": "h1",
+        "blog": "projects",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_we67bp"
+    "image_banner_we67bp",
+    "featured_blog_xP7YBy",
+    "featured_blog_iRyF4a",
+    "featured_blog_f9AYGy"
   ]
 }
