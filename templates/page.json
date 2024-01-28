@@ -14,45 +14,34 @@
         "heading_99MpYH": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "{{ page.title }}",
             "heading_size": "h1"
           }
         },
         "text_Bfe8Wr": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_CWPXd4": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "{{ page.metafields.custom.page_introduction_header.value }}",
+            "text_style": "subtitle"
           }
         }
       },
       "block_order": [
         "heading_99MpYH",
-        "text_Bfe8Wr",
-        "buttons_CWPXd4"
+        "text_Bfe8Wr"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
+        "image": "{{ page.metafields.custom.page_banner_image.value }}",
+        "image_overlay_opacity": 60,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "gallery_CH4pc6": {
