@@ -66,57 +66,37 @@
         "padding_bottom": 52
       }
     },
-    "multicolumn_zUMjFH": {
-      "type": "multicolumn",
+    "multirow_TYiw3m": {
+      "type": "multirow",
       "blocks": {
-        "column_8PA4Dj": {
-          "type": "column",
+        "row_eBNQmQ": {
+          "type": "row",
           "repeater": "{{ page.metafields.custom.services.value }}",
           "settings": {
             "image": "{{ block.repeater.key_image.value }}",
-            "title": "{{ block.repeater.name.value }}",
+            "caption": "{{ block.repeater.name.value }}",
+            "heading": "{{ block.repeater.name.value }}",
             "text": "<p>{{ block.repeater.introduction | metafield_tag }}<\/p>",
-            "link_label": "To {{ block.repeater.name.value }}",
-            "link": "{{ block.repeater.system.url }}"
-          }
-        },
-        "column_DbcKMT": {
-          "type": "column",
-          "settings": {
-            "title": "Mobile Field",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_dCxc9H": {
-          "type": "column",
-          "settings": {
-            "title": "Machinery",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "button_label": "Button label",
+            "button_link": "{{ block.repeater.system.url }}"
           }
         }
       },
       "block_order": [
-        "column_8PA4Dj",
-        "column_DbcKMT",
-        "column_dCxc9H"
+        "row_eBNQmQ"
       ],
       "settings": {
-        "title": "",
+        "image_height": "medium",
+        "desktop_image_width": "medium",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -168,7 +148,7 @@
     "image_banner_kzqUg6",
     "main",
     "rich_text_jjWYnw",
-    "multicolumn_zUMjFH",
+    "multirow_TYiw3m",
     "rich_text_nWREci"
   ]
 }
