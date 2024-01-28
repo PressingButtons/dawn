@@ -36,7 +36,7 @@
         "show_line_separator": true,
         "color_scheme": "scheme-5",
         "menu_color_scheme": "scheme-2",
-        "enable_header_overlay": true,
+        "enable_header_overlay": false,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
