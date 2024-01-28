@@ -61,12 +61,61 @@
         "gallery_image_jWWeCy": {
           "type": "gallery_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/news.jpg",
+            "image_caption": "Add a tagline"
+          }
+        },
+        "gallery_image_gDCrqL": {
+          "type": "gallery_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/services.jpg",
+            "image_caption": "Add a tagline"
+          }
+        },
+        "gallery_image_kh9jTt": {
+          "type": "gallery_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20230930_120609.jpg",
+            "image_caption": "Add a tagline"
+          }
+        },
+        "gallery_image_mgYWM4": {
+          "type": "gallery_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20230930_130611.jpg",
+            "image_caption": "Add a tagline"
+          }
+        },
+        "gallery_image_aNfcUK": {
+          "type": "gallery_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/g3.png",
+            "image_caption": "Add a tagline"
+          }
+        },
+        "gallery_image_merhFj": {
+          "type": "gallery_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/generator-warehouse-stock.jpg",
+            "image_caption": "Add a tagline"
+          }
+        },
+        "gallery_image_6xKhYP": {
+          "type": "gallery_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/work_light_3.jpg",
             "image_caption": "Add a tagline"
           }
         }
       },
       "block_order": [
-        "gallery_image_jWWeCy"
+        "gallery_image_jWWeCy",
+        "gallery_image_gDCrqL",
+        "gallery_image_kh9jTt",
+        "gallery_image_mgYWM4",
+        "gallery_image_aNfcUK",
+        "gallery_image_merhFj",
+        "gallery_image_6xKhYP"
       ],
       "settings": {
         "section_color_scheme": ""
