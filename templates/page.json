@@ -54,10 +54,28 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "gallery_CH4pc6": {
+      "type": "gallery",
+      "blocks": {
+        "gallery_image_jWWeCy": {
+          "type": "gallery_image",
+          "settings": {
+            "image_caption": "Add a tagline"
+          }
+        }
+      },
+      "block_order": [
+        "gallery_image_jWWeCy"
+      ],
+      "settings": {
+        "section_color_scheme": ""
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_we67bp"
+    "image_banner_we67bp",
+    "gallery_CH4pc6"
   ]
 }
