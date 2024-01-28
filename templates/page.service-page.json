@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "image_banner_kzqUg6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7AjTRC": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>SERVICES<\/strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7AjTRC"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/services.jpg",
+        "image_overlay_opacity": 60,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_jjWYnw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_43EU3a": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your Services",
+            "heading_size": "h1"
+          }
+        },
+        "text_xGGpjU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_43EU3a",
+        "text_xGGpjU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_nCDffm": {
+      "type": "multirow",
+      "blocks": {
+        "row_cArPw4": {
+          "type": "row",
+          "repeater": "{{ page.metafields.custom.services.value }}",
+          "settings": {
+            "image": "{{ block.repeater.key_image.value }}",
+            "caption": "",
+            "heading": "{{ block.repeater.name.value }}",
+            "text": "<p>{{ block.repeater.introduction | metafield_tag }}<\/p>",
+            "button_label": "View More",
+            "button_link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "row_cArPw4"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "align-left",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_nWREci": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qFRgVB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tell us why your services are worth it",
+            "heading_size": "h1"
+          }
+        },
+        "text_raT6LH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_fkqeU8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qFRgVB",
+        "text_raT6LH",
+        "button_fkqeU8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner_kzqUg6",
+    "main",
+    "rich_text_jjWYnw",
+    "multirow_nCDffm",
+    "rich_text_nWREci"
+  ]
+}
