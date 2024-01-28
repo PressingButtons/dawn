@@ -71,11 +71,13 @@
       "blocks": {
         "column_8PA4Dj": {
           "type": "column",
+          "repeater": "{{ page.metafields.custom.services.value }}",
           "settings": {
-            "title": "Lighting Repair",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "Lighting Repair",
-            "link": "shopify:\/\/metaobjects\/services\/lighting-repair"
+            "image": "{{ block.repeater.key_image.value }}",
+            "title": "{{ block.repeater.name.value }}",
+            "text": "<p>{{ block.repeater.introduction | metafield_tag }}<\/p>",
+            "link_label": "To {{ block.repeater.name.value }}",
+            "link": "{{ block.repeater.system.url }}"
           }
         },
         "column_DbcKMT": {
