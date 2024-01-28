@@ -30,14 +30,143 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "rich_text_jjWYnw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_43EU3a": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your Services",
+            "heading_size": "h1"
+          }
+        },
+        "text_xGGpjU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_43EU3a",
+        "text_xGGpjU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_zUMjFH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8PA4Dj": {
+          "type": "column",
+          "settings": {
+            "title": "Lighting Repair",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DbcKMT": {
+          "type": "column",
+          "settings": {
+            "title": "Mobile Field",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dCxc9H": {
+          "type": "column",
+          "settings": {
+            "title": "Machinery",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8PA4Dj",
+        "column_DbcKMT",
+        "column_dCxc9H"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_nWREci": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qFRgVB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tell us why your services are worth it",
+            "heading_size": "h1"
+          }
+        },
+        "text_raT6LH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_fkqeU8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qFRgVB",
+        "text_raT6LH",
+        "button_fkqeU8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "image_banner_kzqUg6",
-    "main"
+    "main",
+    "rich_text_jjWYnw",
+    "multicolumn_zUMjFH",
+    "rich_text_nWREci"
   ]
 }
