@@ -42,8 +42,10 @@
     const onresize = () => {
       const computedSize = window.getComputedStyle(container);
       const columns = computedSize.getPropertyValue('grid-template-columns').split(' ').length;
-      for (let i = 0, figure; (figure = figures[i]); i++) {
-        columns[i % 3].append(figure);
+      for (let i = 0; i < figures.length; i++) {
+        const figure = figures[i];
+        const index = i % 3;
+        console.log(i);
       }
     };
 
