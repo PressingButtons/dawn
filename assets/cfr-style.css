@@ -17,7 +17,18 @@ sticky-header span {
     width: 100%
 }
 
+.cfr-masonry figure:hover img {
+    filter: brightness(0.8);
+}
+
 .cfr-masonry figure {
     max-width: 100%;
     width: 100%;
+    position: relative;
+}
+
+.cfr-masonry figcaption {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
 }
