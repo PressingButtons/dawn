@@ -24,7 +24,7 @@ sticky-header span {
 }
 
 .cfr-masonry figure:hover img {
-    filter: brightness(0.8);
+    filter: brightness(0.7);
 }
 
 .cfr-masonry figure {
