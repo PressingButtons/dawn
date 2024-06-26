@@ -26,6 +26,7 @@ sticky-header span {
     max-width: 100%;
     width: 100%;
     position: relative;
+    margin: 0;
 }
 
 .cfr-masonry figcaption {
