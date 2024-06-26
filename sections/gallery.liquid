@@ -1,5 +1,24 @@
+{%- style -%}
+  .cfr-masonry_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (max-width: 880px) {
+    .cfr-masonry_container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .cfr-masonry_container {
+      grid-template-columns: 1fr;
+    }
+  }
+{%- endstyle -%}
+
 <div class="color-{{ section.settings.color.color_scheme }} gradient isolate cfr-masonry">
-  <div class="page-width section-{{ section.id }}-padding">
+  <div class="page-width section-{{ section.id }}-padding cfr-masonry_container">
     <div class="cfr-masonry_column">
       {%- for block in section.blocks -%}
         <figure>
@@ -14,8 +33,19 @@
     <div class="cfr-masonry_column"></div>
   </div>
   <script>
-    const container = document.getElementById('shopify-section-{{ section.id }}');
-    console.log('masonry-element', container);
+    const container = document
+      .getElementById('shopify-section-{{ section.id }}')
+      .querySelector('.cfr-masonry_container');
+    const columns = container.querySelectorAll('.cfr-masonry_column');
+    const figures = container.querySelectorAll('figure');
+
+    const onresize = () => {
+      const computedSize = window.getComputedStyle(container);
+      const columns = computedSize.getPropertValue('grid-template-columns').split(' ').length;
+      for (let i = 0, figure; (figure = figures[i]); i++) {
+        columns[i % 3].append(figure);
+      }
+    };
   </script>
 </div>
 
