@@ -14,7 +14,8 @@ sticky-header span {
 }
 
 .cfr-masonry img {
-    width: 100%
+    width: 100%;
+    transition: all 500ms ease;
 }
 
 .cfr-masonry figure:hover img {
@@ -29,6 +30,7 @@ sticky-header span {
 
 .cfr-masonry figcaption {
     position: absolute;
-    margin: 0 auto;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
