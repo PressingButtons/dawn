@@ -37,15 +37,14 @@
       .getElementById('shopify-section-{{ section.id }}')
       .querySelector('.cfr-masonry_container');
     const columns = container.querySelectorAll('.cfr-masonry_column');
-    console.log(columns);
     const figures = container.querySelectorAll('figure');
 
     const onresize = () => {
       const computedSize = window.getComputedStyle(container);
-      const columns = computedSize.getPropertyValue('grid-template-columns').split(' ').length;
+      const numColumns = computedSize.getPropertyValue('grid-template-columns').split(' ').length;
       for (let i = 0; i < figures.length; i++) {
         const figure = figures[i];
-        const index = i % 3;
+        const index = i % numColumns;
         columns[index].append(figure);
       }
     };
