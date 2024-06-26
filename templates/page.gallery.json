@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -39,15 +48,16 @@
     "gallery_CH4pc6": {
       "type": "gallery",
       "blocks": {
-        "gallery_image_jWWeCy": {
+        "gallery_image_b4CFpM": {
           "type": "gallery_image",
           "settings": {
-            "image_caption": ""
+            "image": "shopify:\/\/shop_images\/news.jpg",
+            "image_caption": "Add a tagline"
           }
         }
       },
       "block_order": [
-        "gallery_image_jWWeCy"
+        "gallery_image_b4CFpM"
       ],
       "settings": {
         "section_color_scheme": ""
