@@ -3,7 +3,7 @@
     <div class="cfr-masonry_column">
       {%- for block in section.blocks -%}
         <figure>
-          {{ block.settings.image | image_url: width: 500 | image_tag: widths: '500' }}
+          {{ block.settings.image | image_url: width: 500 | image_tag: widths: '350, 500' }}
           {%- if block.settings.image_caption != blank -%}
             <figcaption>{{ block.settings.image_caption }}</figcaption>
           {%- endif -%}
@@ -13,6 +13,9 @@
     <div class="cfr-masonry_column"></div>
     <div class="cfr-masonry_column"></div>
   </div>
+  <script>
+    console.log('masonry-section {{section.id}}');
+  </script>
 </div>
 
 {%- schema -%}
