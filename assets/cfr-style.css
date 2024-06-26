@@ -41,5 +41,12 @@ sticky-header span {
     color: white;
     text-transform: capitalize;
     font-weight: 700;
+    opacity: 0;
+    transform: translate(-50%, -70%);
+    transition: all 500ms ease-in-out;
+}
+
+.cfr-masonry figure:hover figcaption {
+    opacity: 1;
     transform: translate(-50%, -50%);
 }
