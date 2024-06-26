@@ -12,3 +12,12 @@ sticky-header span {
     text-transform: uppercase;
     font-weight: 700;
 }
+
+.cfr-masonry img {
+    width: 100%
+}
+
+.cfr-masonry figure {
+    max-width: 100%;
+    width: 100%;
+}
