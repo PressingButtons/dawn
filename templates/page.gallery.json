@@ -48,16 +48,15 @@
     "gallery_CH4pc6": {
       "type": "gallery",
       "blocks": {
-        "gallery_image_3UwzeK": {
+        "gallery_image_jWWeCy": {
           "type": "gallery_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/news.jpg",
-            "image_caption": "Add a tagline"
+            "image_caption": ""
           }
         }
       },
       "block_order": [
-        "gallery_image_3UwzeK"
+        "gallery_image_jWWeCy"
       ],
       "settings": {
         "section_color_scheme": ""
