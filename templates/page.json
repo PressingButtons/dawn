@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -82,17 +91,17 @@
             "image_caption": "Add a tagline"
           }
         },
-        "gallery_image_merhFj": {
-          "type": "gallery_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/generator-warehouse-stock.jpg",
-            "image_caption": "Add a tagline"
-          }
-        },
         "gallery_image_6xKhYP": {
           "type": "gallery_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/work_light_3.jpg",
+            "image_caption": "Add a tagline"
+          }
+        },
+        "gallery_image_merhFj": {
+          "type": "gallery_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/generator-warehouse-stock.jpg",
             "image_caption": "Add a tagline"
           }
         }
@@ -103,8 +112,8 @@
         "gallery_image_kh9jTt",
         "gallery_image_mgYWM4",
         "gallery_image_aNfcUK",
-        "gallery_image_merhFj",
-        "gallery_image_6xKhYP"
+        "gallery_image_6xKhYP",
+        "gallery_image_merhFj"
       ],
       "settings": {
         "section_color_scheme": ""
