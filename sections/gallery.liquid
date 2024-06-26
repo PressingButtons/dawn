@@ -3,7 +3,7 @@
     <div class="cfr-masonry_column">
       {%- for block in section.blocks -%}
         <figure>
-          {{ block.settings.image }}
+          {{ block.settings.image | image_url: width: 500 | image_tag: widths: '500' }}
           {%- if block.settings.image_caption != blank -%}
             <figcaption>{{ block.settings.image_caption }}</figcaption>
           {%- endif -%}
