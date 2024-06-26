@@ -13,8 +13,13 @@ sticky-header span {
     font-weight: 700;
 }
 
+.cfr-masonry {
+    padding-top: 32px;
+}
+
 .cfr-masonry img {
     width: 100%;
+    height: auto;
     transition: all 500ms ease;
 }
 
